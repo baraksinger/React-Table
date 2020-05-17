@@ -1,5 +1,7 @@
 # Barak-React-Table
 
+React-Table-v7 including column-sorting, pagination, global-filter and integrated with Material UI.
+
 # How to run API server
 ```
 npm install
