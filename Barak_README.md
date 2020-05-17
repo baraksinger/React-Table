@@ -1,5 +1,4 @@
-# Arctop Coding Challenge
-
+# Barak React-Table
 
 # How to run API server
 ```
