@@ -1,4 +1,4 @@
-# Barak React-Table
+# Barak-React-Table
 
 # How to run API server
 ```
