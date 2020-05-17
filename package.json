@@ -1,0 +1,14 @@
+{
+  "name": "arctop-challenge",
+  "version": "1.0.0",
+  "description": "Arctop Coding Challenge",
+  "main": "index.js",
+  "author": "Arctop",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "json-server": "^0.14.2"
+  }
+}

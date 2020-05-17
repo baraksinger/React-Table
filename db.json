@@ -1,0 +1,576 @@
+{
+  "experiments": [
+    {
+      "id": "S1000",
+      "name": "Avengers movie trailers",
+      "media": [
+        {
+          "type": "Video",
+          "description": "Avengers: Infinity War",
+          "minutes": "2"
+        },
+        {
+          "type": "Video",
+          "description": "Avengers: End Game",
+          "minutes": "3"
+        }
+      ],
+      "mode": "lab",
+      "type": "EMOTION",
+      "services": [
+        {
+          "type": "report"
+        }
+      ],
+      "total": "1000",
+      "status": "ACTIVE",
+      "userId": "U1000"
+    },
+    {
+      "id": "S1001",
+      "name": "Fast & Furious - behind the scenes",
+      "media": [
+        {
+          "type": "Video",
+          "description": "The Fast and the Furious",
+          "minutes": "20"
+        },
+        {
+          "type": "Video",
+          "description": "Turbo-Charged Prelude",
+          "minutes": "15"
+        }
+      ],
+      "mode": "lab",
+      "type": "EMOTION",
+      "services": [
+        {
+          "type": "report"
+        },
+        {
+          "type": "dashboard",
+          "value": "100"
+        }
+      ],
+      "total": "3000",
+      "status": "ACTIVE",
+      "userId": "U1002"
+    },
+    {
+      "id": "S1002",
+      "name": "Movies that raised the bar",
+      "media": [
+        {
+          "type": "Video",
+          "description": "Titanic",
+          "minutes": "100"
+        }
+      ],
+      "mode": "remote",
+      "type": "ATTENTION",
+      "services": [
+        {
+          "type": "report"
+        }
+      ],
+      "total": "10000",
+      "status": "COMPLETED",
+      "userId": "U1001"
+    },
+    {
+      "id": "S1003",
+      "name": "80's action",
+      "media": [
+        {
+          "type": "Video",
+          "description": "Shogun Assassin",
+          "minutes": "103"
+        }
+      ],
+      "mode": "lab",
+      "type": "ATTENTION",
+      "services": [
+        {
+          "type": "dashboard"
+        }
+      ],
+      "total": "10000",
+      "status": "COMPLETED",
+      "userId": "U5312"
+    },
+    {
+      "id": "S1004",
+      "name": "Best of a trilogy",
+      "media": [
+        {
+          "type": "Video",
+          "description": "The Godfather: Part 2",
+          "minutes": "103"
+        }
+      ],
+      "mode": "remote",
+      "type": "ATTENTION",
+      "services": [
+        {
+          "type": "dashboard"
+        }
+      ],
+      "total": "10000",
+      "status": "NEW",
+      "userId": "U5312"
+    },
+    {
+      "id": "S1005",
+      "name": "Best of an action trilogy",
+      "media": [
+        {
+          "type": "Video",
+          "description": "The Matrix",
+          "minutes": "103"
+        },
+        {
+          "type": "Video",
+          "description": "The Matrix Reloaded",
+          "minutes": "103"
+        }
+      ],
+      "mode": "remote",
+      "type": "EMOTION",
+      "services": [
+        {
+          "type": "dashboard"
+        }
+      ],
+      "total": "1000",
+      "status": "NEW",
+      "userId": "U5312"
+    },
+    {
+      "id": "S1006",
+      "name": "Video Game Movies",
+      "media": [
+        {
+          "type": "Video",
+          "description": "The Angry Birds Movie 2",
+          "minutes": "555"
+        },
+        {
+          "type": "Video",
+          "description": "Resident Evil: Afterlife",
+          "minutes": "555"
+        }
+      ],
+      "mode": "remote",
+      "type": "EMOTION",
+      "services": [
+        {
+          "type": "dashboard"
+        },
+        {
+          "type": "report"
+        }
+      ],
+      "total": "100000",
+      "status": "ACTIVE",
+      "userId": "U531221"
+    },
+    {
+      "id": "S1007",
+      "name": "Billion-Dollar Film",
+      "media": [
+        {
+          "type": "Video",
+          "description": "Despicable Me 3",
+          "minutes": "666"
+        }
+      ],
+      "mode": "lab",
+      "type": "EMOTION",
+      "services": [
+        {
+          "type": "report"
+        }
+      ],
+      "total": "101010",
+      "status": "ACTIVE",
+      "userId": "U531222"
+    },
+    {
+      "id": "S1008",
+      "name": "Spider-Man",
+      "media": [
+        {
+          "type": "Video",
+          "description": "Spider-Man: Homecoming",
+          "minutes": "150"
+        }
+      ],
+      "mode": "remote",
+      "type": "EMOTION",
+      "services": [
+        {
+          "type": "report"
+        }
+      ],
+      "total": "60120120",
+      "status": "COMPLETED",
+      "userId": "U1337"
+    },
+    {
+      "id": "S1009",
+      "name": "Drama TV show",
+      "media": [
+        {
+          "type": "Video",
+          "description": "Game of Thrones",
+          "minutes": "150"
+        }
+      ],
+      "mode": "remote",
+      "type": "ATTENTION",
+      "services": [
+        {
+          "type": "report"
+        }
+      ],
+      "total": "60120120",
+      "status": "COMPLETED",
+      "userId": "U1337"
+    },
+    {
+      "id": "S1010",
+      "name": "Comedy TV show",
+      "media": [
+        {
+          "type": "Video",
+          "description": "Fleabag",
+          "minutes": "80"
+        }
+      ],
+      "mode": "remote",
+      "type": "ATTENTION",
+      "services": [
+        {
+          "type": "report"
+        }
+      ],
+      "total": "420420",
+      "status": "ACTIVE",
+      "userId": "U0002"
+    },
+    {
+      "id": "S1011",
+      "name": "Limited Series",
+      "media": [
+        {
+          "type": "Video",
+          "description": "Chernobyl",
+          "minutes": "100"
+        }
+      ],
+      "mode": "lab",
+      "type": "ATTENTION",
+      "services": [
+        {
+          "type": "report"
+        }
+      ],
+      "total": "420420",
+      "status": "ACTIVE",
+      "userId": "U0002"
+    },
+    {
+      "id": "S1012",
+      "name": "Grammy Award Winners",
+      "media": [
+        {
+          "type": "Audio",
+          "description": "bad guy - Billie Eilish",
+          "minutes": "2"
+        },
+        {
+          "type": "Audio",
+          "description": "This Is America - Donald Glover",
+          "minutes": "3"
+        }
+      ],
+      "mode": "lab",
+      "type": "EMOTION",
+      "services": [
+        {
+          "type": "report"
+        }
+      ],
+      "total": "1000",
+      "status": "COMPLETED",
+      "userId": "U1000"
+    },
+    {
+      "id": "S1013",
+      "name": "Eurovision Winners",
+      "media": [
+        {
+          "type": "Audio",
+          "description": "Arcade - Duncan Laurence",
+          "minutes": "20"
+        },
+        {
+          "type": "Audio",
+          "description": "Toy - Netta",
+          "minutes": "15"
+        }
+      ],
+      "mode": "lab",
+      "type": "EMOTION",
+      "services": [
+        {
+          "type": "report"
+        },
+        {
+          "type": "dashboard",
+          "value": "100"
+        }
+      ],
+      "total": "3000",
+      "status": "COMPLETED",
+      "userId": "U1002"
+    },
+    {
+      "id": "S1014",
+      "name": "Academy Awards for Songs",
+      "media": [
+        {
+          "type": "Audio",
+          "description": "Rocketman - Elton John",
+          "minutes": "103"
+        }
+      ],
+      "mode": "remote",
+      "type": "ATTENTION",
+      "services": [
+        {
+          "type": "dashboard"
+        }
+      ],
+      "total": "10000",
+      "status": "COMPLETED",
+      "userId": "U5312"
+    },
+    {
+      "id": "S1015",
+      "name": "TV themes",
+      "media": [
+        {
+          "type": "Audio",
+          "description": "Cheers",
+          "minutes": "103"
+        },
+        {
+          "type": "Audio",
+          "description": "Breaking bad",
+          "minutes": "103"
+        }
+      ],
+      "mode": "remote",
+      "type": "EMOTION",
+      "services": [
+        {
+          "type": "dashboard"
+        }
+      ],
+      "total": "1000",
+      "status": "NEW",
+      "userId": "U5312"
+    },
+    {
+      "id": "S1016",
+      "name": "Spotify Hits",
+      "media": [
+        {
+          "type": "Audio",
+          "description": "Wake Me Up - Avicii",
+          "minutes": "555"
+        },
+        {
+          "type": "Audio",
+          "description": "Shape of You - Ed Sheeran",
+          "minutes": "555"
+        }
+      ],
+      "mode": "lab",
+      "type": "EMOTION",
+      "services": [
+        {
+          "type": "dashboard"
+        },
+        {
+          "type": "report"
+        }
+      ],
+      "total": "100000",
+      "status": "COMPLETED",
+      "userId": "U531221"
+    },
+    {
+      "id": "S1017",
+      "name": "Xbox One Game",
+      "media": [
+        {
+          "type": "Game",
+          "description": "Read Dead Redemption 2",
+          "minutes": "666"
+        }
+      ],
+      "mode": "lab",
+      "type": "EMOTION",
+      "services": [
+        {
+          "type": "report"
+        }
+      ],
+      "total": "101010",
+      "status": "ACTIVE",
+      "userId": "U531222"
+    },
+    {
+      "id": "S1018",
+      "name": "Playstation 4 Game",
+      "media": [
+        {
+          "type": "Game",
+          "description": "God of War",
+          "minutes": "150"
+        }
+      ],
+      "mode": "remote",
+      "type": "EMOTION",
+      "services": [
+        {
+          "type": "report"
+        }
+      ],
+      "total": "60120120",
+      "status": "COMPLETED",
+      "userId": "U1337"
+    },
+    {
+      "id": "S1019",
+      "name": "Android game",
+      "media": [
+        {
+          "type": "Game",
+          "description": "Call of Duty: Mobile",
+          "minutes": "150"
+        }
+      ],
+      "mode": "remote",
+      "type": "ATTENTION",
+      "services": [
+        {
+          "type": "report"
+        }
+      ],
+      "total": "60120120",
+      "status": "COMPLETED",
+      "userId": "U1337"
+    },
+    {
+      "id": "S1020",
+      "name": "Apple watch game",
+      "media": [
+        {
+          "type": "Game",
+          "description": "Trivia Crack",
+          "minutes": "80"
+        }
+      ],
+      "mode": "remote",
+      "type": "ATTENTION",
+      "services": [
+        {
+          "type": "report"
+        }
+      ],
+      "total": "420420",
+      "status": "ACTIVE",
+      "userId": "U0002"
+    },
+    {
+      "id": "S1021",
+      "name": "iPhone game",
+      "media": [
+        {
+          "type": "Game",
+          "description": "Hearthstone",
+          "minutes": "100"
+        }
+      ],
+      "mode": "lab",
+      "type": "ATTENTION",
+      "services": [
+        {
+          "type": "report"
+        }
+      ],
+      "total": "420420",
+      "status": "ACTIVE",
+      "userId": "U0002"
+    },
+    {
+      "id": "S1022",
+      "name": "iPad games",
+      "media": [
+        {
+          "type": "Game",
+          "description": "Monument Valley",
+          "minutes": "2"
+        },
+        {
+          "type": "Game",
+          "description": "Device 6",
+          "minutes": "3"
+        }
+      ],
+      "mode": "lab",
+      "type": "EMOTION",
+      "services": [
+        {
+          "type": "report"
+        }
+      ],
+      "total": "1000",
+      "status": "ACTIVE",
+      "userId": "U1000"
+    },
+    {
+      "id": "S1023",
+      "name": "VR games",
+      "media": [
+        {
+          "type": "Game",
+          "description": "Beat Saber",
+          "minutes": "20"
+        },
+        {
+          "type": "Game",
+          "description": "Arizona Sunshine",
+          "minutes": "15"
+        }
+      ],
+      "mode": "lab",
+      "type": "EMOTION",
+      "services": [
+        {
+          "type": "report"
+        },
+        {
+          "type": "dashboard",
+          "value": "100"
+        }
+      ],
+      "total": "3000",
+      "status": "ACTIVE",
+      "userId": "U1002"
+    }
+  ]
+}
